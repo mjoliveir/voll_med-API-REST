@@ -1,0 +1,1 @@
+ALTER TABLE pacientes MODIFY email varchar(100);
