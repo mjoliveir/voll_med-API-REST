@@ -8,6 +8,9 @@
     import med.voll.api.endereco.DadosEndereco;
 
     public record DadosCadastroMedico(
+
+            Boolean ativo,
+
             @NotBlank
             String nome,
 
