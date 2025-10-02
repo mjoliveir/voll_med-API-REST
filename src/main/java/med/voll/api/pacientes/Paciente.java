@@ -6,10 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.controller.DadosListagemPaciente;
 import med.voll.api.endereco.Endereco;
-import med.voll.api.medico.DadosCadastroMedico;
-import med.voll.api.medico.Especialidade;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Table(name = "pacientes")
